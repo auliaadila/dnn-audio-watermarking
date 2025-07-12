@@ -127,3 +127,10 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+/repo*
+/.repo*
+/CL*
+/dataset
+*.json
+sample_output/
+*.h5
