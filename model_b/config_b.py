@@ -8,7 +8,7 @@ from pathlib import Path
 FS = 16_000  # 16 kHz sampling rate
 FRAME_LEN = 32_768  # 2.048 s
 BATCH_SIZE = 64
-LIBRI_ROOT = Path("dataset/Libri2h")  # √✓ change here if needed
+LIBRI_ROOT = Path("dataset/libri10h_wav")  # √✓ change here if needed
 
 # ----------------------------------------------------------------------
 # Watermark

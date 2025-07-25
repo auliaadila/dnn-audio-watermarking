@@ -1,7 +1,7 @@
 from utils import bwh
 import numpy as np
 
-BATCH_SIZE = 64
+BATCH_SIZE = 32
 FS = 16000
 FC = 4000
 SIGNAL_SHAPE = (512, 64, 2) 
