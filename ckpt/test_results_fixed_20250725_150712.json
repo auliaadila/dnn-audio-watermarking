@@ -1,0 +1,9 @@
+{
+  "n_test_samples": 1008,
+  "total_bits_tested": 516096,
+  "clean_ber": 3.874301910400391e-06,
+  "attacked_ber": 1.7464160919189453e-05,
+  "clean_accuracy": 0.9999961256980896,
+  "attacked_accuracy": 0.9999825358390808,
+  "test_split": "test"
+}

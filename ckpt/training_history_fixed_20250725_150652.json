@@ -1,0 +1,65 @@
+{
+  "phase1": {
+    "loss": [
+      0.1326783299446106,
+      0.0009291736641898751
+    ],
+    "binary_accuracy_metric": [
+      0.9418424963951111,
+      0.999771237373352
+    ]
+  },
+  "phase2": [
+    {
+      "epoch": 1,
+      "attack_strength": 0.3333333333333333,
+      "loss": "0.046815675",
+      "accuracy": "0.9958881"
+    },
+    {
+      "epoch": 2,
+      "attack_strength": 0.6666666666666666,
+      "loss": "0.009505045",
+      "accuracy": "0.9991214"
+    },
+    {
+      "epoch": 3,
+      "attack_strength": 1.0,
+      "loss": "0.0023249502",
+      "accuracy": "0.99958307"
+    }
+  ],
+  "phase3": [
+    {
+      "epoch": 1,
+      "w_e": 0.2,
+      "w_d": 3.0,
+      "loss": "0.0076123904",
+      "accuracy": "0.99963546",
+      "snr_db": "37.596733"
+    },
+    {
+      "epoch": 2,
+      "w_e": 0.4666666666666667,
+      "w_d": 3.0,
+      "loss": "0.0040198658",
+      "accuracy": "0.9998446",
+      "snr_db": "37.6518"
+    },
+    {
+      "epoch": 3,
+      "w_e": 0.7333333333333334,
+      "w_d": 3.0,
+      "loss": "0.0031295426",
+      "accuracy": "0.999872",
+      "snr_db": "37.670475"
+    }
+  ],
+  "fixes_applied": {
+    "proper_initialization": true,
+    "reduced_attack_aggressiveness": true,
+    "dynamic_loss_weights": true,
+    "improved_shuffle_buffer": true,
+    "fixed_accuracy_metric": true
+  }
+}
